@@ -1,0 +1,30 @@
+{
+    "name": "jakes-snippets",
+    "displayName": "Jakes Snippets",
+    "description": "Jakes Snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "publisher": "jakesfcoetz",
+    "author": {
+        "name": "Jakes"
+    },
+    "homepage": "https://github.com/jakesfcoetz/vscodeExtensions",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jakesfcoetz/vscodeExtensions"
+    },
+    "icon": "SonOfThunder.png",
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "typescript.code-snippets"
+            }
+        ]
+    }
+}
