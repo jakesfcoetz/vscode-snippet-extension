@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "steoates.autoimport",
+    "jakesfcoetz.jakes-snippets",
+    "esbenp.prettier-vscode",
+    "humao.rest-client",
+    "eamodio.gitlens"
+  ]
+}

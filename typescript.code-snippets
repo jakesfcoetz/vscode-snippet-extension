@@ -7,7 +7,7 @@
       " * ${1:File Name}",
       " *",
       " * @file         $TM_FILENAME_BASE",
-      " * @description  ${3:Short description of file function}",
+      " * @description  ${2:Short description of file function}",
       " * @author       Jacques Coetzee",
       " * @since        $CURRENT_YEAR - $CURRENT_MONTH - $CURRENT_DATE",
       " */",
@@ -19,13 +19,13 @@
     "jdoc class": {
       "prefix": "jdoc",
       "body": [
-        "/**----------------------------------------------------------------",
-        " * ${1:Class Name}",
+        "/** =================================================================",
+        " * Class: ${1:Class Name}",
         " *",
-        " * @description  ${3:Short description of file function}",
+        " * @description  ${2:Short description of class function}",
         " * @author       Jacques Coetzee",
         " * @since        $CURRENT_YEAR - $CURRENT_MONTH - $CURRENT_DATE",
-        " */",
+        " * ===== */",
         "$0"
       ],
       "description": "jdoc file"
@@ -34,7 +34,7 @@
   "jdoc interface": {
     "prefix": "jdoc",
     "body": [
-      "/**----------------------------------------------",
+      "/** =============================================",
       " * @interface    ${1:Interface Name}",
       " * @description  ${2:Short description}",
       " */"
@@ -45,7 +45,7 @@
   "jdoc method": {
     "prefix": "jdoc",
     "body": [
-      "/**----------------------------------------------------------------",
+      "/** ---------------------------------------------------------------",
       "   * @name         ${1:Method Name}",
       "   * @description  ${2:Description}",
       "   * @param        ${3:Param 1 Name} ${4:Param 1 description}",
