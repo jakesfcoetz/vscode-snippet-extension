@@ -15,7 +15,7 @@
     ],
     "description": "jdoc file"
   },
-    //=================================================================
+    //===============================================================
     "jdoc class": {
       "prefix": "jdoc",
       "body": [
@@ -36,7 +36,10 @@
       "/** =============================================",
       " * @interface    ${1:Interface Name}",
       " * @description  ${2:Short description}",
-      " */"
+      " */",
+      "interface ${1:Interface Name} {",
+      "  ${3}",
+      "}"
     ],
     "description": "jdoc interface"
   },
