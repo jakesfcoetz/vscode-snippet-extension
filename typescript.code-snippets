@@ -20,8 +20,7 @@
       "prefix": "jdoc",
       "body": [
         "/** =================================================================",
-        " * Class: ${1:Class Name}",
-        " *",
+        " * @class        ${1:Class Name}",
         " * @description  ${2:Short description of class function}",
         " * @author       Jacques Coetzee",
         " * @since        $CURRENT_YEAR - $CURRENT_MONTH - $CURRENT_DATE",
