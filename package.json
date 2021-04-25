@@ -1,14 +1,14 @@
 {
     "name": "jakes-snippets",
     "displayName": "Jakes Snippets",
-    "description": "Jakes Snippets",
-    "version": "0.0.2",
+    "description": "Various Snippets regularly used",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.54.0"
     },
     "publisher": "jakesfcoetz",
     "author": {
-        "name": "Jakes"
+        "name": "jakesfcoetz"
     },
     "homepage": "https://github.com/jakesfcoetz/vscodeExtensions",
     "repository": {
@@ -23,7 +23,11 @@
         "snippets": [
             {
                 "language": "typescript",
-                "path": "typescript.code-snippets"
+                "path": "snippets/jdoc.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "snippets/jchart.code-snippets"
             }
         ]
     }
