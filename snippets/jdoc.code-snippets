@@ -20,6 +20,7 @@
       "prefix": "jdoc",
       "body": [
         "/** =================================================================",
+        " *",
         " * @class        ${1:Class Name}",
         " * @description  ${2:Short description of class function}",
         " * @author       Jacques Coetzee",
@@ -34,6 +35,7 @@
     "prefix": "jdoc",
     "body": [
       "/** =============================================",
+      " *",
       " * @interface    ${1:Interface Name}",
       " * @description  ${2:Short description}",
       " */",
@@ -48,6 +50,7 @@
     "prefix": "jdoc",
     "body": [
       "/** ---------------------------------------------------------------",
+      "   *",
       "   * @name         ${1:Method Name}",
       "   * @description  ${2:Description}",
       "   * @param        ${3:Param 1 Name} ${4:Param 1 description}",

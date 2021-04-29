@@ -7,7 +7,7 @@
       "// ========== Bar =================================================",
       "// ================================================================",
       "//--- Add to HTML",
-      "// <div echarts [options]=\"chartoption_Bar\" [merge]=\"mergeOption_Bar\" class=\"chart\"></div>",
+      "// <div echarts [options]=\"chartoptions_Bar\" [merge]=\"mergeOptions_Bar\" class=\"chart\"></div>",
       "",
       "mergeOptions_Bar: any; //--- Object used to dynamically update chart options",
       "loading_Bar: boolean = false; //--- Display loading graphic on chart",
