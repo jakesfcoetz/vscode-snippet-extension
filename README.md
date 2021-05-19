@@ -15,3 +15,9 @@ jchart-Bar
 jchart-Line
 jchart-Pie
 ```
+
+##### To create extention package, run
+
+``` BASH
+vsce package
+```
