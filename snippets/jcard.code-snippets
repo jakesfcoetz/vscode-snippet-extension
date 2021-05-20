@@ -22,8 +22,6 @@
       ".card-shadow {",
       "  background-color: var(--ion-color-light);",
       "  box-shadow: 1px 1px 5px var(--ion-color-light-shadow);",
-      "  height: 95%;",
-      "  padding-bottom: 35px;",
       "}",
       "",
       ".card-footer {",
@@ -31,8 +29,8 @@
       "  bottom: 0;",
       "  text-align: center;",
       "  padding-bottom: 10px;",
-      "// ==============================================",
       "}",
+      "// ==============================================",
       ""
     ],
     "description": "jcard"
