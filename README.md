@@ -18,7 +18,6 @@
 | `jlayout card`  | Ionic card with classes defined in FCS css |
 | `jlayout grid`  | Ionic grid with all available ion classes  |
 
-- ### jchart - Creates echart snippets - still in progress
 ### To create extention package from code, run
 
 ``` BASH

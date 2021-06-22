@@ -2,7 +2,7 @@
     "name": "jakes-snippets",
     "displayName": "Jakes Snippets",
     "description": "Various Snippets regularly used",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -24,10 +24,6 @@
             {
                 "language": "typescript",
                 "path": "snippets/jdoc.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "snippets/jchart.code-snippets"
             },
             {
                 "language": "html",
