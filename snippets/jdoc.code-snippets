@@ -1,7 +1,7 @@
 {
   //=================================================================
-  "jdoc file": {
-    "prefix": "jdoc",
+  "file": {
+    "prefix": "jdoc file",
     "body": [
       "/**",
       " * ${1:File Name}",
@@ -13,11 +13,11 @@
       " */",
       "$0"
     ],
-    "description": "jdoc file"
+    "description": "jsdoc comments for file"
   },
   //===============================================================
-  "jdoc class": {
-    "prefix": "jdoc",
+  "class": {
+    "prefix": "jdoc class",
     "body": [
       "/**==================================================================",
       " * @class        ${1:Class Name}",
@@ -27,11 +27,21 @@
       " * ===== */",
       "$0"
     ],
-    "description": "jdoc file"
+    "description": "jsdoc comments for class"
   },
   //=================================================================
-  "jdoc interface": {
-    "prefix": "jdoc",
+  "constructor": {
+    "prefix": "jdoc constructor",
+    "body": [
+      "/**----------------------------------------------------------------",
+      " * @name  Constructor",
+      " */"
+    ],
+    "description": "jsdoc comments for constructor"
+  },
+  //=================================================================
+  "interface": {
+    "prefix": "jdoc interface",
     "body": [
       "/**==============================================",
       " * @interface    ${1:Interface Name}",
@@ -41,11 +51,11 @@
       "  ${3}",
       "}"
     ],
-    "description": "jdoc interface"
+    "description": "jsdoc comments for interface"
   },
   //=================================================================
-  "jdoc method": {
-    "prefix": "jdoc",
+  "method": {
+    "prefix": "jdoc method",
     "body": [
       "/**----------------------------------------------------------------",
       " * @name         ${1:Method Name}",
@@ -53,19 +63,12 @@
       " * @param        ${3:Param 1 Name} ${4:Param 1 description}",
       " * @param        ${5:Param 2 Name} ${6:Param 1 description}",
       " * @returns      ${7:Returns}",
-      " */"
+      " */",
+      "${1:Method Name}(${3}, ${5}) {",
+      "",
+      "}"
     ],
-    "description": "jdoc method"
-  },
-  //=================================================================
-  "jdoc constructor": {
-    "prefix": "jdoc",
-    "body": [
-      "/**----------------------------------------------------------------",
-      " * @name  Constructor",
-      " */"
-    ],
-    "description": "jdoc constructor"
+    "description": "jsdoc comments for method"
   }
   //=================================================================
 }

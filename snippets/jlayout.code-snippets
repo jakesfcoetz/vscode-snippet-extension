@@ -1,0 +1,48 @@
+{
+  "card": {
+    "prefix": "jlayout card",
+    "body": [
+      "<ion-card class=\"hub-global-card ${1|full-height,full-width,center,full-height full-width,full-height center,full-width  center,full-height full-width center|}\">",
+      "  <ion-card-header>",
+      "    <ion-card-title>Title</ion-card-title>",
+      "    <ion-card-subtitle>Subtitle</ion-card-subtitle>",
+      "  </ion-card-header>",
+      "",
+      "  <ion-card-content>",
+      "      <p>Content</p>",
+      "  </ion-card-content>",
+      "",
+      "  <ion-footer class=\"card-footer ${2|ion-border,ion-no-border|} ion-text-center\" >",
+      "      <p>Footer</p>",
+      "  </ion-footer>",
+      "</ion-card>",
+      "<!-- =============== Add to CSS =============== -->",
+      ".card-footer {",
+      "  position: absolute;",
+      "  bottom: 0;",
+      "  padding-bottom: 10px;",
+      "}",
+      "<!-- ========================================= -->",
+      ""
+    ],
+    "description": "HTML layout for ion-card"
+  },
+  //=================================================================
+  "grid": {
+    "prefix": "jlayout grid",
+    "body": [
+      "<ion-grid>",
+      "  <ion-row class=\"${1|ion-align-items-start,ion-align-items-center,ion-align-items-end,ion-align-items-baseline,ion-align-items-stretch|} ${2|ion-justify-content-start,ion-justify-content-center,ion-justify-content-end,ion-justify-content-around,ion-justify-content-between,ion-justify-content-evenly|} ${3|ion-nowrap,ion-wrap,ion-wrap-reverse|} \">",
+      "    <ion-col size=\"${4|2,3,4,6,12|}\" class=\"${5|ion-align-self-start,ion-align-self-center,ion-align-self-end,ion-align-self-baseline,ion-align-self-stretch,ion-align-self-auto|} ${6|ion-text-start,ion-text-center,ion-text-end,ion-text-justify,ion-text-wrap,ion-text-nowrap|} ${7|ion-padding,ion-padding-top,ion-padding-start,ion-padding-end,ion-padding-bottom,ion-padding-vertical,ion-padding-horizontal,ion-no-padding|} ${8|ion-margin,ion-margin-top,ion-margin-start,ion-margin-end,ion-margin-bottom,ion-margin-vertical,ion-margin-horizontal,ion-no-margin|}\">",
+      "      ",
+      "    </ion-col>",
+      "    <ion-col size=\"${4}\" class=\"${5} ${6} ${7} ${8}\">",
+      "      ",
+      "    </ion-col>",
+      "  </ion-row>",
+      "</ion-grid>"
+    ],
+    "description": "HTML layout for grid"
+  }
+  //=================================================================
+}

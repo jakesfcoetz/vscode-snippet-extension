@@ -1,22 +1,25 @@
 # VSCode Snippets Extension
-### jdoc - Creates JSDoc snippets
+## Accessable through intellisense
 
-``` BASH
-jdoc-file
-jdoc-class
-jdoc-interface
-jdoc-method
-```
+- ### jdoc - Creates JSDoc snippets
 
-### jchart - Creates echart snippets
+| Prefix  | Used for |
+| ------------- | ------------- |
+| `jdoc file`  | Typescript file headings |
+| `jdoc class`  | Typescript classes  |
+| `jdoc constructor`  | Typescript constructor |
+| `jdoc interface`  | Typescript interfaces (also creates)  |
+| `jdoc method`  | Typescript methods (also creates)  |
 
-``` BASH
-jchart-Bar
-jchart-Line
-jchart-Pie
-```
+- ### jlayout - Creates HTML snippets
 
-##### To create extention package, run
+| Prefix  | Used for |
+| ------------- | ------------- |
+| `jlayout card`  | Ionic card with classes defined in FCS css |
+| `jlayout grid`  | Ionic grid with all available ion classes  |
+
+- ### jchart - Creates echart snippets - still in progress
+### To create extention package from code, run
 
 ``` BASH
 vsce package
