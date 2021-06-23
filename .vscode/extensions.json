@@ -8,6 +8,7 @@
     "angular.ng-template",
     "coenraads.bracket-pair-colorizer-2",
     "dbaeumer.vscode-eslint",
-    "fivethree.vscode-ionic-snippets"
+    "fivethree.vscode-ionic-snippets",
+    "mhutchie.git-graph"
   ]
 }
