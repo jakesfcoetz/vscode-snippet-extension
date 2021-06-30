@@ -2,10 +2,14 @@
 
 [![Last Commit][commit badge]][commit]
 ![Package.json version][version bage]
+![VS Marketplace Release Date][Release Date]
+![VS Marketplace Last Updated][Last Updated]
 [![Code Style][style badge]][style]
 
 [commit badge]: https://img.shields.io/github/last-commit/jakesfcoetz/vscode-snippet-extension?style=flat
 [version bage]: https://img.shields.io/github/package-json/v/jakesfcoetz/vscode-snippet-extension
+[Release Date]: https://img.shields.io/visual-studio-marketplace/release-date/jakesfcoetz.jakes-snippets
+[Last Updated]: https://img.shields.io/visual-studio-marketplace/last-updated/jakesfcoetz.jakes-snippets
 [style badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat
 
 [commit]: https://github.com/first-care-solutions/hub/commit/HEAD
