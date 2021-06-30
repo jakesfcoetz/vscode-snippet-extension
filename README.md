@@ -1,7 +1,5 @@
 # VSCode Snippets Extension
 
-## Badges
-
 [![Last Commit][commit badge]][commit]
 [![Code Style][style badge]][style]
 
