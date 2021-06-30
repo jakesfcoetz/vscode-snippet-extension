@@ -3,7 +3,6 @@
 [![Last Commit][commit badge]][commit]
 ![Package.json version][version bage]
 [![Code Style][style badge]][style]
-![npm](https://img.shields.io/npm/v/npm)
 
 [commit badge]: https://img.shields.io/github/last-commit/jakesfcoetz/vscode-snippet-extension?style=flat
 [version bage]: https://img.shields.io/github/package-json/v/jakesfcoetz/vscode-snippet-extension
