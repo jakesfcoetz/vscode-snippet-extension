@@ -1,9 +1,11 @@
 # VSCode Snippets Extension
 
 [![Last Commit][commit badge]][commit]
+![Package.json version][version bage]
 [![Code Style][style badge]][style]
 
 [commit badge]: https://img.shields.io/github/last-commit/jakesfcoetz/vscode-snippet-extension?style=flat
+[version bage]: https://img.shields.io/github/package-json/v/jakesfcoetz/vscode-snippet-extension
 [style badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat
 
 [commit]: https://github.com/first-care-solutions/hub/commit/HEAD
