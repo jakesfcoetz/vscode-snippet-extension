@@ -1,4 +1,16 @@
 # VSCode Snippets Extension
+
+## Badges
+
+[![Last Commit][commit badge]][commit]
+[![Code Style][style badge]][style]
+
+[commit badge]: https://img.shields.io/github/last-commit/jakesfcoetz/vscode-snippet-extension?style=flat
+[style badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat
+
+[commit]: https://github.com/first-care-solutions/hub/commit/HEAD
+[style]: https://github.com/prettier/prettier
+
 ## Accessable through intellisense
 
 -  jdoc - Creates JSDoc snippets in Typescript files
