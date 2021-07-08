@@ -3,7 +3,7 @@
   "card": {
     "prefix": "jlayout card",
     "body": [
-      "<ion-card class=\"hub-global-card ${1|full-height,full-width,center,full-height full-width,full-height center,full-width  center,full-height full-width center|} card-footer-space\">",
+      "<ion-card class=\"hub-global-card ${1| ,full-height|} ${2| ,full-width|} ${3| ,center|} ${4| ,footer|}\">",
       "  <ion-card-header>",
       "    <ion-card-title>Title</ion-card-title>",
       "    <ion-card-subtitle>Subtitle</ion-card-subtitle>",
@@ -13,22 +13,10 @@
       "      <p>Content</p>",
       "  </ion-card-content>",
       "",
-      "  <div class=\"card-footer ${2|ion-border,ion-no-border|} ion-text-center\" >",
+      "  <div class=\"${5|ion-border,ion-no-border|} ion-text-center\" >",
       "      <ion-button>Footer</ion-button>",
       "  </div>",
       "</ion-card>",
-      "<!-- =============== Add to CSS =============== -->",
-      "ion-card.card-footer-space {",
-      "  padding-bottom: 45px;",
-      "}",
-      "",
-      "div.card-footer {",
-      "  width: 100%;",
-      "  position: absolute;",
-      "  bottom: 0;",
-      "  padding-bottom: 10px;",
-      "}",
-      "<!-- ========================================= -->",
       ""
     ],
     "description": "HTML layout for ion-card"
