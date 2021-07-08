@@ -1,34 +1,34 @@
 {
-    "name": "jakes-snippets",
-    "displayName": "Jakes Snippets",
-    "description": "Various Snippets regularly used",
-    "version": "0.0.10",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "publisher": "jakesfcoetz",
-    "author": {
-        "name": "jakesfcoetz"
-    },
-    "homepage": "https://github.com/jakesfcoetz/vscodeExtensions",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jakesfcoetz/vscodeExtensions"
-    },
-    "icon": "SonOfThunder.png",
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "typescript",
-                "path": "snippets/jdoc.code-snippets"
-            },
-            {
-                "language": "html",
-                "path": "snippets/jlayout.code-snippets"
-            }
-        ]
-    }
+  "name": "jakes-snippets",
+  "displayName": "Jakes Snippets",
+  "description": "Various Snippets regularly used",
+  "version": "0.0.11",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "publisher": "jakesfcoetz",
+  "author": {
+    "name": "jakesfcoetz"
+  },
+  "homepage": "https://github.com/jakesfcoetz/vscodeExtensions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakesfcoetz/vscodeExtensions"
+  },
+  "icon": "SonOfThunder.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "snippets/jdoc.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "snippets/jlayout.code-snippets"
+      }
+    ]
+  }
 }
