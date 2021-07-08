@@ -31,7 +31,7 @@
   "grid": {
     "prefix": "jlayout grid",
     "body": [
-      "<ion-grid>",
+      "<ion-grid class=\"ion-page\">",
       "  <!-- VerticalAlign, HorizontalAlign, Wrap, Padding, Margin -->",
       "  <ion-row class=\"${1|ion-align-items-start,ion-align-items-center,ion-align-items-end,ion-align-items-baseline,ion-align-items-stretch|} ${2|ion-justify-content-start,ion-justify-content-center,ion-justify-content-end,ion-justify-content-around,ion-justify-content-between,ion-justify-content-evenly|} ${3|ion-nowrap,ion-wrap,ion-wrap-reverse|} ${4|ion-padding,ion-padding-top,ion-padding-start,ion-padding-end,ion-padding-bottom,ion-padding-vertical,ion-padding-horizontal,ion-no-padding|} ${5|ion-margin,ion-margin-top,ion-margin-start,ion-margin-end,ion-margin-bottom,ion-margin-vertical,ion-margin-horizontal,ion-no-margin|}\">",
       "    <ion-col size=\"${6|auto,2,3,4,6,12|}\" class=\"${7|ion-align-self-start,ion-align-self-center,ion-align-self-end,ion-align-self-baseline,ion-align-self-stretch,ion-align-self-auto|} ${8|ion-text-start,ion-text-center,ion-text-end,ion-text-justify,ion-text-wrap,ion-text-nowrap|} ${9|ion-padding,ion-padding-top,ion-padding-start,ion-padding-end,ion-padding-bottom,ion-padding-vertical,ion-padding-horizontal,ion-no-padding|} ${10|ion-margin,ion-margin-top,ion-margin-start,ion-margin-end,ion-margin-bottom,ion-margin-vertical,ion-margin-horizontal,ion-no-margin|}\">",
