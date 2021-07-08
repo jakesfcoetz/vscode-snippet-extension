@@ -28,6 +28,10 @@
       {
         "language": "html",
         "path": "snippets/jlayout.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "snippets/jlayout-fcs.code-snippets"
       }
     ]
   }
