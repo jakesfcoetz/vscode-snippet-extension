@@ -9,6 +9,10 @@
     "coenraads.bracket-pair-colorizer-2",
     "dbaeumer.vscode-eslint",
     "fivethree.vscode-ionic-snippets",
-    "mhutchie.git-graph"
+    "mhutchie.git-graph",
+    "streetsidesoftware.code-spell-checker",
+    "oderwat.indent-rainbow",
+    "ritwickdey.liveserver",
+    "tabnine.tabnine-vscode"
   ]
 }
