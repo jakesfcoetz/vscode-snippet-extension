@@ -6,10 +6,10 @@
       "/**",
       " * ${1:File Name}",
       " *",
-      " * @file         $TM_FILENAME_BASE",
-      " * @description  ${2:Short description of file function}",
-      " * @author       Jacques Coetzee",
-      " * @since        $CURRENT_YEAR - $CURRENT_MONTH - $CURRENT_DATE",
+      " * @file          $TM_FILENAME_BASE",
+      " * @description   ${2:Short description of file function}",
+      " * @author        Jacques Coetzee",
+      " * @since         $CURRENT_YEAR - $CURRENT_MONTH - $CURRENT_DATE",
       " */",
       "$0"
     ],
@@ -20,10 +20,10 @@
     "prefix": "jdoc class",
     "body": [
       "/**==================================================================",
-      " * @class        ${1:Class Name}",
-      " * @description  ${2:Short description of class function}",
-      " * @author       Jacques Coetzee",
-      " * @since        $CURRENT_YEAR - $CURRENT_MONTH - $CURRENT_DATE",
+      " * @class         ${1:Class Name}",
+      " * @description   ${2:Short description of class function}",
+      " * @author        Jacques Coetzee",
+      " * @since         $CURRENT_YEAR - $CURRENT_MONTH - $CURRENT_DATE",
       " * ===== */",
       "$0"
     ],
@@ -40,12 +40,23 @@
     "description": "jsdoc comments for constructor"
   },
   //=================================================================
+  "ngOnInit": {
+    "prefix": "jdoc ngOnInit",
+    "body": [
+      "/**----------------------------------------------------------------",
+      " * @name          ngOnInit",
+      " * @description   Update various values on start-up",
+      " */"
+    ],
+    "description": "jsdoc comments for ngOnInit"
+  },
+  //=================================================================
   "interface": {
     "prefix": "jdoc interface",
     "body": [
       "/**==============================================",
-      " * @interface    ${1:Interface Name}",
-      " * @description  ${2:Short description}",
+      " * @interface     ${1:Interface Name}",
+      " * @description   ${2:Short description}",
       " */",
       "interface ${1:Interface Name} {",
       "  ${3}",
@@ -58,11 +69,11 @@
     "prefix": "jdoc method",
     "body": [
       "/**----------------------------------------------------------------",
-      " * @name         ${1:Method Name}",
-      " * @description  ${2:Description}",
-      " * @param        ${3:Param 1 Name} ${4:Param 1 description}",
-      " * @param        ${5:Param 2 Name} ${6:Param 1 description}",
-      " * @returns      ${7:Returns}",
+      " * @name          ${1:Method Name}",
+      " * @description   ${2:Description}",
+      " * @param         ${3:Param 1 Name} ${4:Param 1 description}",
+      " * @param         ${5:Param 2 Name} ${6:Param 1 description}",
+      " * @returns       ${7:Returns}",
       " */",
       "${1:Method Name}(${3}, ${5}) {",
       "",
