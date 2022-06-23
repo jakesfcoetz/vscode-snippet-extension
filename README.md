@@ -14,7 +14,7 @@
 [commit]: https://github.com/first-care-solutions/hub/commit/HEAD
 [style]: https://github.com/prettier/prettier
 
-## Accessable through intellisense
+## Accessible through intellisense
 
 - jdoc - Creates JSDoc snippets in Typescript files
 - jlayout - Creates HTML snippets in HTML files
@@ -38,7 +38,15 @@
 | `jlayout grid row` | Ionic grid row with all available ion classes |
 | `jlayout grid col` | Ionic grid col with all available ion classes |
 
-## To create extention package from code, run
+## To create extension package from code
+
+### Install
+
+```BASH
+npm install -g vsce
+```
+
+### Run
 
 ```BASH
 vsce package
