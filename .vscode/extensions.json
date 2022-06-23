@@ -1,18 +1,13 @@
 {
   "recommendations": [
-    "steoates.autoimport",
     "jakesfcoetz.jakes-snippets",
     "esbenp.prettier-vscode",
-    "humao.rest-client",
     "eamodio.gitlens",
-    "angular.ng-template",
-    "coenraads.bracket-pair-colorizer-2",
+    "Angular.ng-template",
     "dbaeumer.vscode-eslint",
-    "fivethree.vscode-ionic-snippets",
     "mhutchie.git-graph",
     "streetsidesoftware.code-spell-checker",
     "oderwat.indent-rainbow",
-    "ritwickdey.liveserver",
-    "tabnine.tabnine-vscode"
+    "ritwickdey.liveserver"
   ]
 }

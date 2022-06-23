@@ -2,7 +2,7 @@
   "name": "jakes-snippets",
   "displayName": "Jakes Snippets",
   "description": "Various personal snippets used regularly",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.54.0"
   },

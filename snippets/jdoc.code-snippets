@@ -34,7 +34,7 @@
     "prefix": "jdoc constructor",
     "body": [
       "/**----------------------------------------------------------------",
-      " * @name  Constructor",
+      " * @name  constructor",
       " */"
     ],
     "description": "jsdoc comments for constructor"
@@ -45,7 +45,7 @@
     "body": [
       "/**----------------------------------------------------------------",
       " * @name          ngOnInit",
-      " * @description   Update various values on start-up",
+      " * @description   Update various values on component initialization",
       " */"
     ],
     "description": "jsdoc comments for ngOnInit"
